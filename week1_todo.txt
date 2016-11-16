@@ -1,0 +1,7 @@
+Week 1 Todo:
+1. temperatures.py
+2. salesBonus.py
+3. brokenScore.py
+4. loops.py
+5. enhanced salesBonus.py
+6. shipping.py
