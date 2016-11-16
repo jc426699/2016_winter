@@ -5,3 +5,7 @@ Week 1 Todo:
 4. loops.py
 5. enhanced salesBonus.py
 6. shipping.py
+
+CP5632 6 hour workshop
+- First 3 hours on week 3 Tue 9-12 (29 Nov)
+- Second 3 hours on week 6 Tue 9-12 (20 Dec)
