@@ -40,11 +40,14 @@ print("Position 0-3:", greet[0:4]) #slicing
 print("Position at odd number: ", greet[1::2]) #print starting from position 1 to the end, separated by 2 position
 print("Negative indexing -2: ", greet[-2])
 print("In between 2, -2", greet[2:-1])
-
+# String slicing [start:end:step]
 """
 Given the string str1 = "abcdefghij", write code that will produce the following:
 a) 'jihgfedcba'
 b) 'adgj'
 c) 'igeca'
 """
-
+str1 = "abcdefghij"
+print(str1[-1::-1])
+print(str1[::3])
+print(str1[-2::-2])
