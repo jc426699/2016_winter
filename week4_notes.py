@@ -12,11 +12,13 @@ finally write the output at the bottom.
 - How to prepare:
     - Practice!!!
 """
-name = input("Name:")
-vowels = "aeiouAEIOU"
+name = str(input("Name:"))
+name_lower = name.lower()
+#vowels = "aeiouAEIOU"
+vowels = ['a', 'e', 'i', 'o', 'u']
 count = 0
 
-for each in name:
+for each in name_lower:
     if each in vowels:
         count += 1
 

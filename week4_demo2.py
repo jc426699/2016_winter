@@ -28,6 +28,27 @@ print("after sort: ", name_list)
 
 def test(num1=0, num2=0, text1=""):
     print(num2)
+    return 3, 5
 
 test(num1=99)
+
+print(foods)
+
+str1 = "**"
+str2 = "nfjhace"
+print(str1.join(foods))
+print(str2)
+print(sorted(str2))
+
+print(list(tuple(foods)))
+
+new_list = []
+for each in range(100):
+    new_list.append(each * 2)
+
+new_list_comp = [each**2 for each in range(100)]
+print(new_list_comp)
+
+
+
 
