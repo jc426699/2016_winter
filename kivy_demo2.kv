@@ -36,5 +36,7 @@ BoxLayout:
         text: "who wins..."
     TextInput:
         id: my_input
+        multiline: False
+        on_text_validate: app.change_label()
     Label:
         text: app.msg

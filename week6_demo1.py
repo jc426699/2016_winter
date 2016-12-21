@@ -26,6 +26,8 @@ class Demo2(App):
         else:
             myButton.text = "X"
             self.root.ids.my_label.text = "Just change to X"
+
+    def change_label(self):
         self.msg = self.root.ids.my_input.text
         print(self.msg)
 
