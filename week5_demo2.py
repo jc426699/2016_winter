@@ -13,24 +13,23 @@ plants = {"carrot":"orange",
           }
 plants["mango"] = "yellow"
 
-for each in plants: #return the key
-    print("Getting plant:{}, value: {}".format(each, plants[each]))
+#for each in plants: #return the key
+ #   print("Getting plant:{}, value: {}".format(each, plants[each]))
 #print(plants)
 
 #print(plants.items())
 for key, value in plants.items():
     print("{:10s} -> {:10s}".format(key, value))
 
-for value in plants.values():
-    print(value)
+#for value in plants.values():
+ #   print(value)
 
 names = ["John", "John", "Ann", "Jane"] #list of names
-#count the occurrence of each name
-count = {} #John = 2
+count = {}
 
 for each in names:
-    if each in count: #if it exist in count dict
+    if each in count:
         count[each] += 1
-    else: #first time
+    else:
         count[each] = 1
-    print(count)
+#print(count)
